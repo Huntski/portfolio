@@ -1,0 +1,8 @@
+export {default as GithubLogo} from './GithubLogo.vue'
+export {default as LinkedinLogo} from './LinkedinLogo.vue'
+export {default as TwitterLogo} from './TwitterLogo.vue'
+export {default as VueLogo} from './VueLogo.vue'
+export {default as ElectronLogo} from './ElectronLogo.vue'
+export {default as TailwindLogo} from './TailwindLogo.vue'
+export {default as TypeScriptLogo} from './TypeScriptLogo.vue'
+export {default as JavaScriptLogo} from './JavaScriptLogo.vue'
