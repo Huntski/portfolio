@@ -17,6 +17,10 @@ module.exports = {
       fontFamily: {
         'captions': ['bc-alphapipe', 'sans-serif', 'helvetica'],
         'default': ['Poppins', 'sans-serif', 'helvetica'],
+      },
+
+      maxWidth: {
+        '8xl': '90rem',
       }
     },
   },

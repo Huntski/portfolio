@@ -1,5 +1,5 @@
 <template>
-    <BaseAttribute>
+    <BaseAttribute link="https://www.typescriptlang.org/">
         <TypeScriptLogo />
 
         <span>Typescript</span>

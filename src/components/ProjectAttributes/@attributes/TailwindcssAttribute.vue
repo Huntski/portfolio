@@ -1,5 +1,5 @@
 <template>
-    <BaseAttribute color="#fff" background="#121625">
+    <BaseAttribute color="#fff" background="#121625" link="https://tailwindcss.com/">
         <TailwindLogo />
 
         <span>Tailwindcss</span>

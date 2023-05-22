@@ -1,3 +1,3 @@
-import ProjectGalleryItem from './ProjectGalleryItem.vue'
+import GalleryApplication from './GalleryApplication.vue'
 
-export default ProjectGalleryItem
+export default GalleryApplication

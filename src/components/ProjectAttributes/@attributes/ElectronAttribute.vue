@@ -1,5 +1,5 @@
 <template>
-    <BaseAttribute color="#9FEAF9" background="#2B2E3A">
+    <BaseAttribute color="#9FEAF9" background="#2B2E3A" link="https://www.electronjs.org/">
         <ElectronLogo />
 
         <span>Electron</span>

@@ -1,5 +1,5 @@
 <template>
-    <BaseAttribute color="#41B883" background="#fff">
+    <BaseAttribute color="#41B883" background="#fff" link="https://vuejs.org/">
         <VueLogo />
 
         <span>Vue.js</span>

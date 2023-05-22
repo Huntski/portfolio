@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply font-captions;
+}
+
+p {
+    @apply font-default;
+}
+
+body::-webkit-scrollbar {
+    width: .8rem;
+    padding: 300px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #F2F6F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #2a2a2a;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #ff4444;
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #c42b2b;
+}
+
+/**
+    Vue Transitions.
+ */
+
+/* Slide To Transition */
+
+.slide-leave-active,
+.slide-enter-active {
+    transition: 400ms ease-in-out;
+}
+.slide-enter-from {
+    transform: translate(25%, 0);
+}
+.slide-leave-to {
+    transform: translate(-25%, 0);
+}
+
+.slide-enter-from,
+.slide-leave-to {
+    opacity: 0;
+}
+
+/* Slide Back Transition */
+
+.slide-reverse-leave-active,
+.slide-reverse-enter-active {
+    transition: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.slide-reverse-enter-from {
+    transform: translate(-25%, 0);
+}
+.slide-reverse-leave-to {
+    transform: translate(25%, 0);
+}
+
+.slide-reverse-enter-from,
+.slide-reverse-leave-to {
+    opacity: 0;
+}
